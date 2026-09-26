@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+      <defs>
+        <radialGradient id="feltGrad" cx="50%" cy="50%" r="70%">
+          <stop offset="0%" stop-color="#143828" />
+          <stop offset="60%" stop-color="#0c2419" />
+          <stop offset="100%" stop-color="#07150f" />
+        </radialGradient>
+        <radialGradient id="ball8Grad" cx="35%" cy="30%" r="65%">
+          <stop offset="0%" stop-color="#555" />
+          <stop offset="25%" stop-color="#222" />
+          <stop offset="80%" stop-color="#0a0a0a" />
+          <stop offset="100%" stop-color="#000" />
+        </radialGradient>
+        <radialGradient id="ballYellowGrad" cx="35%" cy="30%" r="65%">
+          <stop offset="0%" stop-color="#fff8d6" />
+          <stop offset="30%" stop-color="#f5c228" />
+          <stop offset="85%" stop-color="#b88304" />
+          <stop offset="100%" stop-color="#694600" />
+        </radialGradient>
+        <radialGradient id="ballRedGrad" cx="35%" cy="30%" r="65%">
+          <stop offset="0%" stop-color="#ffd1d1" />
+          <stop offset="30%" stop-color="#dc2626" />
+          <stop offset="85%" stop-color="#8a0c0c" />
+          <stop offset="100%" stop-color="#450303" />
+        </radialGradient>
+        <radialGradient id="ballBlueGrad" cx="35%" cy="30%" r="65%">
+          <stop offset="0%" stop-color="#d1e6ff" />
+          <stop offset="30%" stop-color="#2563eb" />
+          <stop offset="85%" stop-color="#123891" />
+          <stop offset="100%" stop-color="#081845" />
+        </radialGradient>
+        <radialGradient id="ballCueGrad" cx="35%" cy="30%" r="65%">
+          <stop offset="0%" stop-color="#ffffff" />
+          <stop offset="40%" stop-color="#f5f3ec" />
+          <stop offset="85%" stop-color="#d6d1c2" />
+          <stop offset="100%" stop-color="#8a8575" />
+        </radialGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+          <feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#000" flood-opacity="0.85" />
+        </filter>
+        <linearGradient id="boxGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#1c1f1d" />
+          <stop offset="100%" stop-color="#0a0c0b" />
+        </linearGradient>
+      </defs>
+
+      <!-- Background Luxury Felt -->
+      <rect width="800" height="600" fill="url(#feltGrad)" />
+
+      <!-- Presentation Tray Border -->
+      <rect x="50" y="50" width="700" height="500" rx="8" fill="url(#boxGrad)" stroke="#c5a059" stroke-width="2" stroke-opacity="0.35" filter="url(#shadow)" />
+      <rect x="65" y="65" width="670" height="470" rx="4" fill="#0d1210" stroke="#c5a059" stroke-width="1" stroke-opacity="0.15" />
+
+      <!-- Velvet Cushion Cavities -->
+      <g filter="url(#shadow)">
+        <!-- Ball 1 Yellow -->
+        <circle cx="200" cy="200" r="58" fill="url(#ballYellowGrad)" />
+        <circle cx="200" cy="200" r="24" fill="#fff" />
+        <text x="200" y="208" font-family="'Cinzel', serif" font-weight="900" font-size="24" text-anchor="middle" fill="#111">1</text>
+        <ellipse cx="180" cy="175" rx="14" ry="7" fill="#fff" opacity="0.6" transform="rotate(-30 180 175)" />
+
+        <!-- Ball 8 Black (Center Hero) -->
+        <circle cx="400" cy="300" r="75" fill="url(#ball8Grad)" />
+        <circle cx="400" cy="300" r="30" fill="#f8fafc" />
+        <text x="400" y="311" font-family="'Cinzel', serif" font-weight="900" font-size="32" text-anchor="middle" fill="#0a0a0a">8</text>
+        <ellipse cx="370" cy="265" rx="18" ry="9" fill="#fff" opacity="0.75" transform="rotate(-30 370 265)" />
+
+        <!-- Ball 3 Red -->
+        <circle cx="600" cy="200" r="58" fill="url(#ballRedGrad)" />
+        <circle cx="600" cy="200" r="24" fill="#fff" />
+        <text x="600" y="208" font-family="'Cinzel', serif" font-weight="900" font-size="24" text-anchor="middle" fill="#111">3</text>
+        <ellipse cx="580" cy="175" rx="14" ry="7" fill="#fff" opacity="0.6" transform="rotate(-30 580 175)" />
+
+        <!-- Ball 2 Blue -->
+        <circle cx="240" cy="400" r="58" fill="url(#ballBlueGrad)" />
+        <circle cx="240" cy="400" r="24" fill="#fff" />
+        <text x="240" y="408" font-family="'Cinzel', serif" font-weight="900" font-size="24" text-anchor="middle" fill="#111">2</text>
+        <ellipse cx="220" cy="375" rx="14" ry="7" fill="#fff" opacity="0.6" transform="rotate(-30 220 375)" />
+
+        <!-- Cue Ball -->
+        <circle cx="560" cy="400" r="58" fill="url(#ballCueGrad)" />
+        <circle cx="560" cy="390" r="4" fill="#dc2626" opacity="0.9" />
+        <circle cx="545" cy="410" r="4" fill="#dc2626" opacity="0.9" />
+        <circle cx="575" cy="410" r="4" fill="#dc2626" opacity="0.9" />
+        <ellipse cx="540" cy="375" rx="16" ry="8" fill="#fff" opacity="0.85" transform="rotate(-30 540 375)" />
+      </g>
+
+      <!-- Gold Plaque -->
+      <rect x="300" y="475" width="200" height="32" rx="2" fill="#1c1810" stroke="#c5a059" stroke-width="1.5" />
+      <text x="400" y="496" font-family="'Cinzel', serif" font-size="11" font-weight="700" letter-spacing="3" text-anchor="middle" fill="#c5a059">ARAMITH DURAMITH™</text>
+    </svg>

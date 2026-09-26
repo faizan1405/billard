@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+      <rect width="600" height="450" fill="#0d110f" />
+      <polygon points="300,100 420,160 420,280 300,340 180,280 180,160" fill="#1e3a8a" stroke="#c5a059" stroke-width="4" />
+      <ellipse cx="300" cy="180" rx="40" ry="20" fill="#3b82f6" />
+      <text x="300" y="400" font-family="'Cinzel', serif" font-size="12" letter-spacing="3" fill="#c5a059" text-anchor="middle">CERAMIC MICRO-CHALK</text>
+    </svg>

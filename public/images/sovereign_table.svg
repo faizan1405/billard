@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+      <defs>
+        <linearGradient id="darkBg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#121614" />
+          <stop offset="100%" stop-color="#060807" />
+        </linearGradient>
+        <linearGradient id="slateFelt" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#1b3f30" />
+          <stop offset="60%" stop-color="#132c22" />
+          <stop offset="100%" stop-color="#0a1a14" />
+        </linearGradient>
+        <linearGradient id="woodGrain" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#1a1d1b" />
+          <stop offset="50%" stop-color="#2d3330" />
+          <stop offset="100%" stop-color="#161817" />
+        </linearGradient>
+        <linearGradient id="goldReveal" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#916c27" />
+          <stop offset="50%" stop-color="#e8cca0" />
+          <stop offset="100%" stop-color="#916c27" />
+        </linearGradient>
+      </defs>
+
+      <rect width="800" height="600" fill="url(#darkBg)" />
+
+      <!-- Overhead Chandelier Glow -->
+      <ellipse cx="400" cy="180" rx="280" ry="120" fill="#c5a059" opacity="0.12" />
+
+      <!-- Isometric Billiard Table -->
+      <g transform="translate(100, 150)">
+        <!-- Table Pedestal / Base -->
+        <polygon points="120,280 480,280 460,330 140,330" fill="#141715" stroke="#222" />
+        <rect x="180" y="325" width="240" height="8" fill="url(#goldReveal)" />
+
+        <!-- Table Outer Frame -->
+        <polygon points="40,160 560,160 580,270 20,270" fill="url(#woodGrain)" stroke="#3a423e" stroke-width="2" />
+        
+        <!-- Brass Inlay Strip -->
+        <polygon points="35,220 565,220 567,225 33,225" fill="url(#goldReveal)" />
+
+        <!-- Table Felt Surface -->
+        <polygon points="80,175 520,175 540,250 60,250" fill="url(#slateFelt)" />
+
+        <!-- Pocket Castings -->
+        <circle cx="80" cy="175" r="14" fill="#0a0a0a" stroke="#c5a059" stroke-width="2" />
+        <circle cx="300" cy="173" r="11" fill="#0a0a0a" stroke="#c5a059" stroke-width="2" />
+        <circle cx="520" cy="175" r="14" fill="#0a0a0a" stroke="#c5a059" stroke-width="2" />
+        <circle cx="60" cy="250" r="14" fill="#0a0a0a" stroke="#c5a059" stroke-width="2" />
+        <circle cx="300" cy="252" r="11" fill="#0a0a0a" stroke="#c5a059" stroke-width="2" />
+        <circle cx="540" cy="250" r="14" fill="#0a0a0a" stroke="#c5a059" stroke-width="2" />
+
+        <!-- Balls on Table -->
+        <circle cx="300" cy="210" r="8" fill="#f8fafc" />
+        <circle cx="380" cy="205" r="8" fill="#eab308" />
+        <circle cx="395" cy="200" r="8" fill="#dc2626" />
+        <circle cx="395" cy="210" r="8" fill="#0f172a" />
+      </g>
+    </svg>

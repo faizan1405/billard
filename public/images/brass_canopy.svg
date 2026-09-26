@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+      <defs>
+        <radialGradient id="lampGlow" cx="50%" cy="30%" r="70%">
+          <stop offset="0%" stop-color="#fff4d4" stop-opacity="0.8" />
+          <stop offset="40%" stop-color="#c5a059" stop-opacity="0.3" />
+          <stop offset="80%" stop-color="#143828" stop-opacity="0.1" />
+          <stop offset="100%" stop-color="#070908" stop-opacity="0" />
+        </radialGradient>
+        <linearGradient id="brassLinear" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#997531" />
+          <stop offset="35%" stop-color="#faecc9" />
+          <stop offset="65%" stop-color="#c5a059" />
+          <stop offset="100%" stop-color="#6b501d" />
+        </linearGradient>
+      </defs>
+
+      <rect width="800" height="600" fill="#090c0a" />
+
+      <!-- Light Cone Diffusion -->
+      <polygon points="200,240 600,240 780,600 20,600" fill="url(#lampGlow)" />
+
+      <!-- Hanging Cables -->
+      <line x1="250" y1="0" x2="250" y2="180" stroke="#777" stroke-width="2" />
+      <line x1="550" y1="0" x2="550" y2="180" stroke="#777" stroke-width="2" />
+
+      <!-- Ceiling Mount Canopy Plates -->
+      <rect x="235" y="0" width="30" height="12" fill="url(#brassLinear)" />
+      <rect x="535" y="0" width="30" height="12" fill="url(#brassLinear)" />
+
+      <!-- Linear Pendant Body -->
+      <rect x="180" y="180" width="440" height="40" rx="4" fill="url(#brassLinear)" stroke="#38290f" stroke-width="2" />
+      <rect x="190" y="220" width="420" height="15" fill="#fefae0" />
+
+      <!-- Three Conical Brass Shades -->
+      <!-- Cone 1 -->
+      <path d="M 230 190 L 210 240 L 290 240 Z" fill="url(#brassLinear)" />
+      <ellipse cx="250" cy="240" rx="40" ry="12" fill="#fffbe8" stroke="url(#brassLinear)" stroke-width="2" />
+
+      <!-- Cone 2 (Center) -->
+      <path d="M 380 190 L 360 240 L 440 240 Z" fill="url(#brassLinear)" />
+      <ellipse cx="400" cy="240" rx="40" ry="12" fill="#fffbe8" stroke="url(#brassLinear)" stroke-width="2" />
+
+      <!-- Cone 3 -->
+      <path d="M 530 190 L 510 240 L 590 240 Z" fill="url(#brassLinear)" />
+      <ellipse cx="550" cy="240" rx="40" ry="12" fill="#fffbe8" stroke="url(#brassLinear)" stroke-width="2" />
+
+      <text x="400" y="540" font-family="'Cinzel', serif" font-size="14" font-weight="700" letter-spacing="4" text-anchor="middle" fill="#c5a059">5000K TOURNAMENT SHADOWLESS CANOPY</text>
+    </svg>

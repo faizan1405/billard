@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Unrelated extension files from original directory
+background.js
+branding.json
+build-config.js
+castle-v2.js
+content.js
+drag-blocker.js
+gitMode.js
+hwFingerprint.js
+jszip.min.js
+loop.mp4
+lovable-feature-api.js
+manifest.json
+ota-update.js
+pageHook.js
+payload.js
+powerkits-core.css
+powerkits-core.js
+icons/
