@@ -39,14 +39,7 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Left: Brand Monogram & Wordmark */}
         <a href="#" className="flex items-center gap-3 group">
-          <div className="w-9 h-9 rounded-sm bg-[#16382a] border border-[#c5a059]/40 flex items-center justify-center text-[#c5a059] group-hover:border-[#c5a059] transition-all transform group-hover:scale-105 shadow-md">
-            {/* Custom Billiard Crest SVG */}
-            <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current" stroke="none">
-              <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" strokeWidth="1.5" />
-              <path d="M12 6v12M6 12h12" stroke="currentColor" strokeWidth="1" strokeDasharray="1 1" />
-              <circle cx="12" cy="12" r="3.5" fill="currentColor" opacity="0.9" />
-            </svg>
-          </div>
+          <img src="/favicon.png" alt="Vandenberg & Co. logo" className="w-9 h-9 rounded-md object-cover shrink-0 border border-[#c5a059]/40 group-hover:border-[#c5a059] transition-all transform group-hover:scale-105 shadow-md" />
           <div className="flex flex-col">
             <span className="font-serif text-lg md:text-xl font-bold tracking-[0.25em] text-[#faf9f6] uppercase group-hover:text-[#c5a059] transition-colors leading-none">
               Vandenberg
